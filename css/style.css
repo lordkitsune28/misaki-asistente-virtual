@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+
+    font-size: 16px;
+}
+
+#container {
+    width: 100%;
+    /* max-width: 1000px; */
+}
+
+#cuerpo {
+    width: 20rem;
+    position: absolute;
+    margin: 1.6rem;
+    /* background-image: url(/img/misakiCuerpo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+#cara{
+    width: 4.8rem;
+    position: relative;
+    margin: 7.9rem 0rem 0rem 8.7rem;
+}
+
+#widget {
+    width: 40%;
+    margin: 2em;
+}
+
+#widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 100%;
+}
+
+.reloj {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    padding: 20px;
+    font-size: 3.5em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+}
