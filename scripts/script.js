@@ -3,7 +3,7 @@ let actHora = () => {
        ampm 
     // segundos = fecha.getSeconds();
     let reloj = [{
-        horas: horas = fecha.getHours(),
+        horas: fecha.getHours(),
         minutos : fecha.getMinutes(),
         semana : fecha.getDay(),
         dia : fecha.getDate(),
@@ -26,6 +26,7 @@ let actHora = () => {
             h = 12;
             ampm = "AM";
         } else {
+            h = value.horas;
             ampm = "AM";
         }
 

@@ -13,44 +13,45 @@ body {
 
 .container {
     width: 100%;
-    height: 100%;
-    background-image: url(/img/fondo.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    /* background-size: cover; */
-    /* background-attachment: fixed; */
-}
-
-.container-reloj {
-    width: 100%;
+    padding: 0px !important;
 }
 
 .misaki {
-    width: 20rem;
+    width: 44vh;
+    display: block;
+    /* margin: 16vh auto 0vh auto !important; */
+    
 }
 
-.container-cuerpo{
-    width: 50%;
+.container-cuerpo {
+    width: 60vh;
+    height: 100vh;
     margin: 0px auto 0px auto;
+    background-image: url(/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
 }
 
 .cuerpo {
-    width: 40% !important;
-    margin: 0 auto 0 auto;
+    width: 90%;
+    margin: 0px auto 0px auto;
+
 }
 
 .widget {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 40%;
+    width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, .5);
-    margin: 40px auto 0px auto;
+    margin: 0px auto 0px auto;
     color: aliceblue;
 }
 
 .widget p {
     display: inline-block;
-    line-height: 0.5em;
+    /* line-height: 0.5em; */
 }
 
 .reloj {
@@ -59,5 +60,5 @@ body {
 }
 
 .fecha {
-    font-size: 1em;    
+    font-size: 1em;
 }
