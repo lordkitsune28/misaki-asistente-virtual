@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #754A33;
+    background-color: #1C82AD;
 
 }
 
@@ -51,7 +51,7 @@ body {
 
 .widget p {
     display: inline-block;
-    /* line-height: 0.5em; */
+    line-height: 0.5em;
 }
 
 .reloj {
