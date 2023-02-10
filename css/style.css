@@ -7,59 +7,57 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: #754A33;
 
-    font-size: 16px;
 }
 
-#container {
+.container {
     width: 100%;
-
+    height: 100%;
+    background-image: url(/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
 }
 
 .container-reloj {
-    width: 90%;
-    max-width: 1000px;
+    width: 100%;
 }
 
-#cuerpo {
+.misaki {
     width: 20rem;
-    position: absolute;
-    margin: 1.6rem 0 0 1.7rem;
-    /* background-image: url(/img/misakiCuerpo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; */
 }
 
+.container-cuerpo{
+    width: 50%;
+    margin: 0px auto 0px auto;
+}
 
+.cuerpo {
+    width: 40% !important;
+    margin: 0 auto 0 auto;
+}
 
 .widget {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 40%;
-    margin: 0 5rem 0 20rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 40px auto 0px auto;
+    color: aliceblue;
 }
 
 .widget p {
     display: inline-block;
-    line-height: 1em;
-}
-
-.fecha {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    font-size: 1.5em;
-    margin-bottom: 0.3125rem;
-    background-color: rgba(0, 0, 0, .5);
-    padding: 20px;
-    width: 100%;
+    line-height: 0.5em;
 }
 
 .reloj {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 100%;
-    padding: 20px;
-    font-size: 3.5em;
-    text-align: center;
-    background-color: rgba(0, 0, 0, .5);
+    font-size: 2em;
+
+}
+
+.fecha {
+    font-size: 1em;    
 }
